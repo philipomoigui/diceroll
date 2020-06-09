@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content= 
+        "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"> 
+        <script src="script.js"></script>
+	<title>Dice Game</title> 
+</head> 
+
+<body> 
+    <ul>
+        <li class="topli">
+            <div class="topcontainer">
+                <div class="container"> 
+                    <h1>Let's Get Rolling</h1> 
+            
+                    <div class="dice"> 
+                        <p class="Player1">First Die </p> 
+                        <img class="img1" src="./images/dice1.png"> 
+                    </div> 
+                    <div class="dice"> 
+                        <p class="Player1">Second Die</p> 
+                        <img class="img2" src="./images/dice1.png"> 
+                    </div>
+                </div> 
+            
+                <div class="container bottom"> 
+                    <button type="button" class="butn"
+                        onClick="rollTheDice()"> 
+                        Roll the Dice 
+                    </button> 
+                </div> 
+                <div class="container bottom"> 
+                    <button type="button" class="butn"
+                        onClick="showDiceRoll()"> 
+                        Score
+                    </button> 
+                </div>
+            </div>
+        </li>
+
+        <li class="nested">
+            <div>
+                <table id="table">
+                    <thead>
+                        <th>No Of Throws</th>
+                        <th>Results</th>
+                    </thead>
+        
+                    <tbody id="tableBody">
+        
+                    </tbody>
+                </table>
+            </div>
+        </li>
+    </ul>
+	 
+</body> 
+
+</html> 
